@@ -23,19 +23,18 @@ td {
 
 /*baclground*/
 body {
-  background-color: rgb(238, 238, 238);
+  background-color: white;
   font-family: sans-serif;
-
   position: relative;
   padding-bottom: 58px;
   min-height: 100vh;
 }
 
 #myBtn {
-  background-color: rgb(238, 238, 238);
+  background-color: white;
   border: none;
   color: white;
-  padding: 10px 15px;
+  padding: 8px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -49,7 +48,7 @@ body {
 }
 
 #myBtn:hover {
-  background-color: rgb(218, 218, 218);
+  background-color: white;
   cursor: pointer;
 }
 
@@ -83,7 +82,17 @@ header {
 h2 {
   font-size: 48px;
   margin-bottom: 30px;
-  color: #00b8ec;
+  color: #000000;
+  text-align: center;
+}
+
+.logo {
+  width: 30%;
+  height: auto;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header p {
@@ -99,7 +108,7 @@ main {
 }
 
 article {
-  background-color: rgb(238, 238, 238);
+  background-color: white;
   padding: 20px;
   margin-bottom: 20px;
   border-radius: 5px;
@@ -134,16 +143,22 @@ footer {
 .topnav {
   overflow: hidden;
   background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
 }
 
 .topnav a {
-  float: left;
+  float: justify;
   display: block;
   color: black;
   text-align: center;
+  flex: 1;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  height: 50px;
 }
 
 .topnav a:hover {
