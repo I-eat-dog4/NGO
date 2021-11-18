@@ -34,7 +34,8 @@
       <a href="about.html">About</a>
       <a href="events.html">Events</a>
       <a href="contact.html">Contact</a>
-      <di   v>
+      <a class="active" href="donate.html">Donate</a>
+      <div>
         <!--                                                    Search Bar
         <form action="/action_page.php" class="search-bar">
           <input
@@ -47,16 +48,13 @@
         -->
       </div>
     </div>
-    <form method="get" action="/donate.html">
-        <button class="flag" type=""> <span>Donate</span></button>
     </form>
     <main>
-        <br><br><br><br>
-        <h2>Donate</h2>
+        <h2 style="font-size: 8vh;">Donate</h2>
         <article class="please_donate">
             <img class="qr_code" src="data:image/png;base64,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" alt="QR code">
-            <p>Refugees Havn Donations</p>
-            <p>Send Money to <b>0990AV</b></p>
+            <p style="font-size: 4vh;">Refugees Havn Donations</p>
+            <p style="font-size: 3vh;">Send Money to <b>0990AV</b></p>
             <br>
             <li><b>Scan the QR code</b> with MobilePay</li>
             <br>
@@ -68,12 +66,12 @@
     </main>
 
     <footer>
-      <p class="copyright"></p>
+      <!-- <p class="copyright"></p>
         Copyright &copy;
         <script>
           document.write(new Date().getFullYear());
-        </script>
-        ____
+        </script> -->
+        Refugees Havn
         <a href="mailto:refugeeshavn@gmail.com" class="fa fa-google"></a>
       </p>
     </footer>
