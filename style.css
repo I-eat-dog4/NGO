@@ -87,7 +87,7 @@ h2 {
 }
 
 .logo {
-  width: 30%;
+  width: 50%;
   height: auto;
   border-radius: 50%;
   display: block;
@@ -164,8 +164,14 @@ footer {
   outline: none;
   border: none;
   margin-right: 100px;
-  float: right;
+  float: left;
+  transform: rotate(270deg);
 }
+
+.flag .donate_text {
+  transform: rotate(90deg);
+}
+
 .flag:after {
   content: "";
   position: absolute;
@@ -190,7 +196,7 @@ footer {
 }
 
 .topnav {
-  overflow: visible;
+  overflow: hidden;
   background-color: white;
   float: top;
   align-content: left;
