@@ -24,7 +24,7 @@ td {
 /*baclground*/
 body {
   background-color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: sans-serif;
   position: relative;
   padding-bottom: 58px;
   min-height: 100vh;
@@ -87,12 +87,11 @@ h2 {
 }
 
 .logo {
-  width: 50%;
-  height: auto;
+  /* width: 50%; */
+  height: 40vh;
   border-radius: 50%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  align-items: center;
 }
 
 header p {
@@ -109,10 +108,9 @@ main {
 
 article {
   background-color: white;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 3px;
+  padding-right: 3px;
   margin-bottom: 20px;
-  border-radius: 5px;
 }
 article:last-child {
   margin-bottom: 0;
@@ -135,17 +133,21 @@ footer {
 }
 
 .qr_code {
-  float: right;
-  margin-top: 10px;
+  float: initial;
+  /* margin-top: 10px;
   margin-right: 300px;
-  transform: scale(1.5);
+  transform: scale(1.5); */
 }
 
 .please_donate {
-  margin-left: 200px;
-  margin-top: 100px;
+  float: inline-start;
+  background-color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 20px;
 }
 
+/*
 * {
   box-sizing: border-box;
 }
@@ -200,7 +202,6 @@ footer {
   background-color: white;
   float: top;
   align-content: left;
-  padding-left: 37%;
 }
 
 .topnav a {
@@ -210,7 +211,7 @@ footer {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 14px;
   height: 50px;
   flex: unset;
 }
