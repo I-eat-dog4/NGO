@@ -1,6 +1,8 @@
 @font-face {
   font-family: "FontAwesome";
   src: url("./Font\ Awesome.ttf") format("truetype");
+  font-family: "varelaround-regular-webfont";
+  src: url("./varelaround-regular-webfont.woff") format("woff");
 }
 
 .username {
@@ -24,7 +26,7 @@ td {
 /*baclground*/
 body {
   background-color: white;
-  font-family: sans-serif;
+  font-family: "varelaround-regular-webfont";
   position: relative;
   padding-bottom: 58px;
   min-height: 100vh;
@@ -50,6 +52,12 @@ body {
 #myBtn:hover {
   background-color: white;
   cursor: pointer;
+}
+
+section {
+  background-color: pink;
+  right: 0px;
+  left: 0px;
 }
 
 /*
@@ -87,11 +95,11 @@ h2 {
 }
 
 .logo {
-  /* width: 50%; */
-  height: 40vh;
+  width: 55%;
   border-radius: 50%;
   display: block;
   align-items: center;
+  margin-left: 300px;
 }
 
 header p {
@@ -108,8 +116,8 @@ main {
 
 article {
   background-color: white;
-  padding-left: 3px;
-  padding-right: 3px;
+  padding-left: 55px;
+  padding-right: 55px;
   margin-bottom: 20px;
 }
 article:last-child {
@@ -133,21 +141,19 @@ footer {
 }
 
 .qr_code {
-  float: initial;
-  /* margin-top: 10px;
-  margin-right: 300px;
-  transform: scale(1.5); */
+  position: relative;
+  top: 100px;
+  left: 250px;
+  transform: scale(1.5);
 }
 
 .please_donate {
-  float: inline-start;
+  float: right;
   background-color: white;
-  padding-left: 50px;
-  padding-right: 50px;
-  margin-bottom: 20px;
+  margin-top: 100px;
+  margin-right: 250px;
 }
 
-/*
 * {
   box-sizing: border-box;
 }
@@ -201,11 +207,12 @@ footer {
   overflow: hidden;
   background-color: white;
   float: top;
-  align-content: left;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .topnav a {
-  display: flex;
   float: left;
   color: black;
   text-align: center;
@@ -225,6 +232,10 @@ footer {
 .topnav a.active {
   background-color: #272faa;
   color: white;
+}
+
+.top_color {
+  background-color: powderblue;
 }
 
 /*                              Eventual search bar
