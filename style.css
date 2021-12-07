@@ -32,6 +32,11 @@ body {
   min-height: 100vh;
 }
 
+.intro_video {
+  text-align: center;
+  width: 100%;
+}
+
 #myBtn {
   background-color: white;
   border: none;
@@ -91,6 +96,10 @@ h2 {
   font-size: 48px;
   margin-bottom: 30px;
   color: #000000;
+  text-align: center;
+}
+
+h3 {
   text-align: center;
 }
 
